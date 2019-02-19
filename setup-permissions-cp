@@ -1,5 +1,6 @@
 #!/bin/sh
 
-chmod 755 camera_i2c
-chmod 755 raspiraw
-chmod 755 rpi3-gpiovirtbuf
+chown root 10-raspiraw.rules
+chgrp root 10-raspiraw.rules
+cp 10-raspiraw.rules /etc/udev/rules.d
+
