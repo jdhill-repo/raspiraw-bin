@@ -1,6 +1,16 @@
 #!/bin/sh
 
+# Setup filemods
+echo 'start_file=start_x.elf' >> /boot/config.txt
+echo 'dtparam=i2c_vc=on' >> /boot/config.txt
+echo 'dtparam=i2c_arm=on' >> /boot/config.txt
+echo 'modprobe i2c_bcm2708' >> /etc/rc.local
+echo 'modprobe i2c_dev' >> /etc/rc.local
+
+# Set permissions and copy rules file to /etc/udev/rules.d folder
 chown root 10-raspiraw.rules
 chgrp root 10-raspiraw.rules
 cp 10-raspiraw.rules /etc/udev/rules.d
 
+# Add raspiraw directory to path
+echo 'PATH=~/raspiraw-bin:$PATH' >> ~/.bashrc#
