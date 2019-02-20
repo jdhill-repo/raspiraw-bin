@@ -13,4 +13,4 @@ chgrp root 10-raspiraw.rules
 cp 10-raspiraw.rules /etc/udev/rules.d
 
 # Add raspiraw directory to path
-echo 'PATH=~/raspiraw-bin:$PATH' >> ~/.bashrc#
+echo 'PATH=~/raspiraw-bin:$PATH' >> ~/.bashrc
