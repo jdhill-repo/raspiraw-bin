@@ -1,4 +1,0 @@
-#!/bin/sh
-
-# Add raspiraw directory to path
-echo 'PATH=~/raspiraw-bin:$PATH' >> ~/.bashrc
