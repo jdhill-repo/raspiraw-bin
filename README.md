@@ -9,7 +9,7 @@ Raspiraw-bin contains the pre-compiled raspiraw binaries for use with the INDI P
 
 To install, simply clone this repo, run the setup script, add the raspiraw-bin directory to the $PATH, and reboot with the commands below in a terminal:
 
-	cd
+	cd ~
 
 	git clone https://github.com/jdhill-repo/raspiraw-bin.git
 
