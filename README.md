@@ -1,7 +1,9 @@
+# PLEASE NOTE .... DUE TO RECENT REVISIONS IN THE RASPIRAW SOURCE CODE, IT IS HIGHLY RECOMMENDED TO NOT USE THESE COMPILED BINARIES UNTIL THEY CAN BE UPDATED. PLEASE COMPILE FROM THE SOURCE AT https://github.com/6by9/raspiraw.
+
 # raspiraw-bin
 Raspiraw binaries
 
-Raspiraw-bin contains the pre-compiled raspiraw binaries for use with the INDI PiCamera driver. They were compiled on a Raspbberry PI 3 with the Raspbian OS from the source from https://github.com/6by9/raspiraw. Raspiraw-bin has been tested on both Rasbian and Mate (Astroberry) for the Raspberry Pi.
+Raspiraw-bin contains the pre-compiled raspiraw binaries for use with the INDI PiCamera driver. They were compiled on a Raspberry PI 3 with the Raspbian OS from the source from https://github.com/6by9/raspiraw. Raspiraw-bin has been tested on both Rasbian and Mate (Astroberry) for the Raspberry Pi.
 
 ---------------------------------------------------------------------------------------------------------
 
