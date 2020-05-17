@@ -1,5 +1,3 @@
-# PLEASE NOTE .... DUE TO RECENT REVISIONS IN THE RASPIRAW SOURCE CODE, IT IS HIGHLY RECOMMENDED TO NOT USE THESE COMPILED BINARIES UNTIL THEY CAN BE UPDATED. PLEASE COMPILE FROM THE SOURCE AT https://github.com/6by9/raspiraw.
-
 # raspiraw-bin
 Raspiraw binaries
 
@@ -27,11 +25,13 @@ To install, simply clone this repo, run the setup script, add the raspiraw-bin d
 
 # Test
 
-To test the install, type
+To test the install enter the commands below in a terminal:
+
+	cd ~/raspiraw-bin
 
 	camera_i2c
 
-into a terminal, and you should get a result similar to
+and you should get a result similar to
 
 	setting GPIO for board revsion: a22082
 	Raspberry Pi3/Pi3+
