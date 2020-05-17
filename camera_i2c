@@ -110,7 +110,7 @@ raspi-gpio set 45 a1
 # you need this one: https://github.com/6by9/rpi3-gpiovirtbuf
 #raspi-gpio set 41 1
 #./rpi3-gpiovirtbuf s 133 1
-~/raspiraw/rpi3-gpiovirtbuf s 133 1
+~/raspiraw-bin/rpi3-gpiovirtbuf s 133 1
 
 #LED
 #raspi-gpio set 32 1
