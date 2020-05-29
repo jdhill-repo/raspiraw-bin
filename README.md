@@ -51,13 +51,13 @@ and you should get a result similar to
 
 # Note
 
-If raspiraw-bin is cloned to a directory different than instructed above, you will need to modify the camera_i2c script. Change line 111 of camera_i2c (./rpi3-gpiovirtbuf s 133 1) to include the full directory of where rpi3-gpiovirtbuf is located.
+If raspiraw-bin is cloned to a directory different than instructed above, you will need to modify the camera_i2c script. Change line 113 of camera_i2c (~/raspiraw-bin/rpi3-gpiovirtbuf s 133 1) to include the full directory of where rpi3-gpiovirtbuf is located.
 
 sudo nano camera_i2c
 
 	change
 
-	./rpi3-gpiovirtbuf s 133 1
+	~/raspiraw-bin/rpi3-gpiovirtbuf s 133 1
 
 	to
 
