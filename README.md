@@ -1,5 +1,3 @@
-# PLEASE NOTE .... DUE TO RECENT REVISIONS IN THE RASPIRAW SOURCE CODE, IT IS HIGHLY RECOMMENDED TO NOT USE THESE COMPILED BINARIES UNTIL THEY CAN BE UPDATED. PLEASE COMPILE FROM THE SOURCE AT https://github.com/6by9/raspiraw.
-
 # raspiraw-bin
 Raspiraw binaries
 
@@ -27,11 +25,13 @@ To install, simply clone this repo, run the setup script, add the raspiraw-bin d
 
 # Test
 
-To test the install, type
+To test the install enter the commands below in a terminal:
+
+	cd ~/raspiraw-bin
 
 	camera_i2c
 
-into a terminal, and you should get a result similar to
+and you should get a result similar to
 
 	setting GPIO for board revsion: a22082
 	Raspberry Pi3/Pi3+
@@ -51,13 +51,13 @@ into a terminal, and you should get a result similar to
 
 # Note
 
-If raspiraw-bin is cloned to a directory different than instructed above, you will need to modify the camera_i2c script. Change line 111 of camera_i2c (./rpi3-gpiovirtbuf s 133 1) to include the full directory of where rpi3-gpiovirtbuf is located.
+If raspiraw-bin is cloned to a directory different than instructed above, you will need to modify the camera_i2c script. Change line 113 of camera_i2c (~/raspiraw-bin/rpi3-gpiovirtbuf s 133 1) to include the full directory of where rpi3-gpiovirtbuf is located.
 
 sudo nano camera_i2c
 
 	change
 
-	./rpi3-gpiovirtbuf s 133 1
+	~/raspiraw-bin/rpi3-gpiovirtbuf s 133 1
 
 	to
 
